@@ -1,0 +1,111 @@
+body {
+    background:white;
+    color: rgb(15, 20, 25);
+    font-family: Chirp;
+    }
+
+#perfil img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+} 
+
+.arroba{
+    color: rgb(83, 100, 113);
+}
+
+.name{
+    color: rgb(15, 20, 25)
+}
+
+.data{
+    color: rgb(83, 100, 113);
+}
+
+.numbers{
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+}
+
+.textEstatisticas{
+   color: rgb(83, 100, 113);
+   text-decoration: none;
+   list-style: none;
+   display: inline-block;
+}
+
+.textEstatisticas:hover{
+    text-decoration: underline;
+}
+
+#tzeetz p{
+    color: rgb(15, 20, 25);
+}
+
+#tzeetz p:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+
+#linksArea ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+#linksArea a{
+    text-decoration: none;
+    color: rgb(15, 20, 25);
+    border-radius: 10px;
+    display: block;
+}
+
+#linksArea a:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+}
+    
+
+#publicacoes a{
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+}
+
+#publicacoes a:hover{
+    background-color:rgba(15, 25, 20, 0.1);
+}
+
+
+.reply {
+    color: rgb(83, 100, 113);
+    border-radius: 10px
+}
+
+.retzeet{
+    color: rgb(83, 100, 113);
+    border-radius: 10px
+}
+.like{
+    color: rgb(83, 100, 113);
+    border-radius: 10px
+}
+.share{
+    color: rgb(83, 100, 113);
+    border-radius: 10px
+}
+
+.reply:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+}
+
+.retzeet:hover{
+    background-color:  rgba(0, 186, 124, 0.1);
+    color: rgba(0, 186, 124, 1);
+}
+.like:hover{
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgba(249, 24, 128, 1);
+}
+.share:hover{
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+}
