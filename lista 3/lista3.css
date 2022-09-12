@@ -71,10 +71,21 @@ body {
     position: relative;
 }
 
+.opcoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 #publicacoes a{
     color: rgb(15, 20, 25);
     text-decoration: none;
     position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #tweetbutton button{
