@@ -14,8 +14,12 @@ body {
     color: rgb(83, 100, 113);
 }
 
+.list-group-horizontal .list-group-item {
+    display: inline-block;
+}
+
 .name{
-    color: rgb(15, 20, 25)
+    color: rgb(15, 20, 25);
 }
 
 .data{
@@ -62,11 +66,19 @@ body {
 #linksArea a:hover{
     background-color: rgba(15, 25, 20, 0.1);
 }
-    
+
+.list-inline .list-group-horizontal .list-group-item{
+    position: relative;
+}
 
 #publicacoes a{
     color: rgb(15, 20, 25);
     text-decoration: none;
+    position: relative;
+}
+
+#tweetbutton button{
+    position: relative;
 }
 
 #publicacoes a:hover{
@@ -108,4 +120,12 @@ body {
 .share:hover{
     background-color: rgba(29, 155, 240, 0.1);
     color: rgba(29, 155, 240, 1);
+}
+
+#opocoes a{
+    display: inline-block; 
+}
+
+#tzeets:hover{
+    background-color: rgba(15, 25, 20, 0.1);
 }
